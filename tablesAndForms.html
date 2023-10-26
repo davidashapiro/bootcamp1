@@ -64,13 +64,36 @@
         <h3>General Information</h3>
     </p>
     <form>
-        First Name <input name="first-name"> <br>
-        Last Name: <input name="last-name"> <br>
-
-           irst Name <input name="first-name"> <br>
-            Last Name: <input name="last-name"> <br>
-            <input type="submit" value="Go!">
+        <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required size="15" /> <br>
+        <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required size="15" /> <br>
+        <label for="email">Email: </label>    
+            <input type="email" id="email" name="email"> <br>
+        <label for="date">Date of Birth: </label>    
+            <input type="date" id="date" name="date"> <br>
           </form>
+    </form>
+    <p>
+        <h3>Essential questions</h3>
+    </p>
+    what kind of work do you need? <br>
+    <form>
+        <label for="prog">Programing</label><input type="checkbox" name="prog" id="prog"><br>
+        <label for="des">Design</label><input type="checkbox" name="des" id="des"><br>
+        <label for="sin">Singing</label><input type="checkbox" name="sin" id="sin"><br>
+        <label for="com">Comedy</label><input type="checkbox" name="com" id="com"><br>
+    </form>
+    <br>
+    How interested are you in our design skills? <br>
+    <form>
+        <label for="skills1">Very Low</label><input type="radio" id="skills1" name="skills" value="very_low"><br>
+        <label for="skills2">Low</label><input type="radio" id="skills2" name="skills" value="Low"><br>
+        <label for="skills3">Medium</label><input type="radio" id="skills3" name="skills" value="med"><br>
+        <label for="skills4">High</label><input type="radio" id="skills4" name="skills" value="high"><br>
+        <label for="skills5">Very High</label><input type="radio" id="skills5" name="skills" value="very_high"><br>
+        <button type="submit">Submit me!</button><br>
+        Here is our footer - let's make sure we &copy; this!
     </form>
 </body>
 </html>
